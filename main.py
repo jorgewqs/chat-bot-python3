@@ -15,8 +15,8 @@ bot = ChatBot(
 
 conversa = ChatterBotCorpusTrainer(bot)
 conversa.train("chatterbot.corpus.portuguese")
-conversa.train("chatterbot.corpus.english")
-conversa.train("chatterbot.corpus.spanish")
+# conversa.train("chatterbot.corpus.english")
+# conversa.train("chatterbot.corpus.spanish")
 
 conversa = ListTrainer(bot)
 conversa.train([
